@@ -1,0 +1,41 @@
+<com.lakehub.mobilecare.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe"
+    tools:ignore="HardcodedText" >
+
+    <!-- Dashboard Button -->
+
+    <Button
+        android:id="@+id/btn_dashboard"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_dashboard"
+        android:text="My Dashboard" />
+
+    <!-- Calendar Button -->
+
+    <Button
+        android:id="@+id/btn_calendar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_calendar"
+        android:text="My Calendar" /> 
+        
+    <!-- Messages Button -->
+    
+    <Button
+        android:id="@+id/btn_messages"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_messages"
+        android:text="My Messaages" />
+    
+    <!-- Miscellaneous -->
+    
+    <Button
+        android:id="@+id/btn_misc"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_misc"
+        android:text="Miscellaneous" />
+    
+</com.lakehub.mobilecare.DashboardLayout>

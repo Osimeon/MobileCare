@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Care</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Doctors</item>
+        <item >Appointments</item>
+        <item >Hospitals</item>
+        <item >My Records</item>
+        <item >Pharmacy</item>
+        <item >Telephone Hotline</item>
+    </string-array>
+     
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/doctors_</item>
+        <item>@drawable/appointments_</item>
+        <item>@drawable/hospials_</item>
+        <item>@drawable/myrecords_</item>
+        <item>@drawable/pharmacy_</item>
+        <item>@drawable/hotline_</item>
+    </array>
+     
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>
