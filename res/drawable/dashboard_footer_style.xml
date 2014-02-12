@@ -3,16 +3,12 @@
 	<!-- Selector style for listrow -->
 	<item android:state_pressed="false" >
 		<shape xmlns:android="http://schemas.android.com/apk/res/android"  android:shape="rectangle"> 
-		    <gradient android:startColor="#ff29549f" android:endColor="#ff29549f"    android:angle="270"/> 
-		   	<stroke android:width="1dip" android:color="#999999"/>	   
+		    <gradient android:startColor="#96CDCD" android:endColor="#2F4F4F"    android:angle="270"/> 
+		   	<stroke android:width="1dip" android:color="#2F4F4F"/>	   
 		</shape> 	
 	</item>
 
 	<item 
 	    android:state_pressed="true" 
-	    android:drawable="@drawable/dashboard_footer_bg" />
-	 
-	<item android:state_selected="true"
-	 	android:state_pressed="false" 
 	    android:drawable="@drawable/dashboard_footer_bg" />
 </selector>

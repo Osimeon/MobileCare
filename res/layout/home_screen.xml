@@ -7,13 +7,6 @@
     android:orientation="vertical"
     tools:ignore="DuplicateIds" >
 
-    <RelativeLayout
-        android:id="@+id/btnSyncAll"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:background="@drawable/dashboard_footer_style" >
-    </RelativeLayout>
-
     <include layout="@layout/dashboard" />
 
     <RelativeLayout
