@@ -23,7 +23,8 @@ public class MainActivity extends Activity{
     private ActionBarDrawerToggle mDrawerToggle;
  
     private CharSequence mDrawerTitle;
- 
+    
+    /*Application Title Goes Here*/
     private CharSequence mTitle;
  
     //Slide Menu Items
@@ -32,7 +33,12 @@ public class MainActivity extends Activity{
  
     private ArrayList<NavDrawerItem> navDrawerItems;
     private NavDrawerListAdapter adapter;
- 
+    
+    @Override
+    protected void onResume(){
+    	super.onResume();
+    }
+    
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
